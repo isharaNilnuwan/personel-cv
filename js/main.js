@@ -20,11 +20,11 @@ jQuery(document).ready(function( $ ) {
 
   // JavaScript Chart
   var doughnutData = [{
-      value: 70,
+      value: 65,
       color: "#1abc9c"
     },
     {
-      value: 30,
+      value: 35,
       color: "#ecf0f1"
     }
   ];
@@ -32,11 +32,11 @@ jQuery(document).ready(function( $ ) {
 
   // Bootstrap Chart
   var doughnutData = [{
-    value: 90,
+    value: 30,
     color: "#1abc9c"
   },
   {
-    value: 10,
+    value: 70,
     color: "#ecf0f1"
   }
   ];
@@ -68,11 +68,11 @@ jQuery(document).ready(function( $ ) {
 
   // Photoshop Chart
   var doughnutData = [{
-    value: 70,
+    value: 65,
     color: "#1abc9c"
   },
   {
-    value: 30,
+    value: 35,
     color: "#ecf0f1"
   }
   ];
@@ -80,11 +80,11 @@ jQuery(document).ready(function( $ ) {
 
   // Illustrator Chart
   var doughnutData = [{
-    value: 50,
+    value: 65,
     color: "#1abc9c"
   },
   {
-    value: 50,
+    value: 35,
     color: "#ecf0f1"
   }
   ];
