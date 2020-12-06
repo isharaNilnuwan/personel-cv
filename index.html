@@ -56,11 +56,15 @@
   <!--/ #section-topbar -->
 
   <div id="headerwrap">
+    <div>
+       
+
+    </div>
     <div class="container">
       <div class="row centered">
         <div class="col-lg-12">
           <h1>Ishara Nilnuwan</h1>
-          <h3>Web Designer | isharanilnuwan1@gmail.com</h3>
+          <h3>Web Developer | isharanilnuwan1@gmail.com</h3>
         </div>
         <!--/.col-lg-12 -->
       </div>
@@ -78,6 +82,7 @@
 
           <div class="col-lg-2 col-lg-offset-1">
             <h5>ABOUT</h5>
+            <!-- <img src="img/avatar.jpeg" alt="Avatar" style="width:200px;border-radius: 50%;"> -->
           </div>
           <div class="col-lg-6">
             <p>I am a self motivated, hard-working, responsible person with strong
@@ -86,11 +91,11 @@
               Computer Sciences.
               </p>
           </div>
-          <div class="col-lg-3">
+          <!-- <div class="col-lg-3">
             <p><a href="#"><i class="icon-file"></i></a>
               <sm>DOWNLOAD PDF</sm>
             </p>
-          </div>
+          </div> -->
 
         </div>
         <!--/.row -->
@@ -270,10 +275,10 @@
       <div class="col-lg-2 col-lg-offset-1">
         <h5>PROJECTS</h5>
       </div>
+      
       <div class="col-lg-6">
         <p>
-          <t>PREDICTING USED CAR PRICES IN SRILANKA BY
-            MACHINE LEARNING</t><br/> Evaluated models to predict used cars market values
+          <t>PREDICTING USED CAR PRICES IN SRILANKA BY MACHINE LEARNING</t><br/> Evaluated models to predict used cars market values
             in sri lanka which can help both buyers and sellers in
             Sri Lanka <br/>
         </p>
@@ -286,15 +291,25 @@
 
       <div class="col-lg-6 col-lg-offset-3">
         <p>
-          <t>Designer of the Year</t><br/> Awwards Site
+          <t>Interactive Wall</t><br/> A interactive wall to reduce the stress of university Students using a funny avatar.
         </p>
         <p>
-          <more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more>
+          <more></more>
         </p>
       </div>
       <div class="col-lg-3">
         <p>
-          <sm>2013</sm>
+          <sm>2020</sm>
+        </p>
+      </div>
+      <div class="col-lg-6 col-lg-offset-3">
+        <p>
+          <t>Craftsman registration web app - National Crafts Council<br/>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <p>
+          <sm>2020</sm>
         </p>
       </div>
 
@@ -355,8 +370,8 @@
 
 
 
-  <section id="work" name="work">
-    <!--PORTFOLIO DESCRIPTION -->
+  <!-- <section id="work" name="work">
+   
     <div class="container desc">
       <div class="row">
         <div class="col-lg-2 col-lg-offset-1">
@@ -399,12 +414,12 @@
         </div>
 
       </div>
-      <!--/.row -->
+       
       <br>
       <br>
     </div>
-    <!--/.container -->
-  </section>
+     
+  </section> -->
 
   <section id="contact" name="contact">
     <!--FOOTER DESCRIPTION -->
@@ -420,10 +435,10 @@
               <t>Email</t><br/> isharanilnuwan1@gmail.com <br/>
             </p>
             <p>
-              <t>Adress</t><br/> Some Ave. 987 <br/> Postal 23892 <br/> London, England. <br/>
+              <t>Adress</t><br/> 27/B   <br/> Governments Servents colony <br/> Diwrumpitiya,Gatahaththa <br/>
             </p>
             <p>
-              <t>Phone</t><br/> +55 8933-2383 <br/>
+              <t>Phone</t><br/>0713853316<br/>
             </p>
             <p>
               <t>Social Links</t><br/>
@@ -469,7 +484,7 @@
               <div class="sent-message">Your message has been sent. Thank you!</div>
 
               <div class="form-send">
-                <button type="submit" id="button" class="btn btn-large" value="Send Email">Send Message</button>
+                <button type="submit" id="button" class="btn btn-large" value="Send Email" onclick="ClearFields();">Send Message</button>
               </div>
 
             </form>
@@ -477,7 +492,7 @@
             <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 
             <script type="text/javascript">
-              emailjs.init('user_KyNXVwlKXUvTlJHMICypP')
+             emailjs.init('user_KyNXVwlKXUvTlJHMICypP')
             
             </script>
 
@@ -501,9 +516,18 @@
                     btn.value = 'Send Email';
                     alert(JSON.stringify(err));
                   });
-              });</script>
-
-          </div>
+              });
+              </script>
+              
+              <script>
+              function ClearFields() {
+                document.getElementById("to_name").value = "";
+                document.getElementById("from_name").value = "";
+                document.getElementById("contact-message").value = "";
+           }
+           </script>
+          
+        </div>
         </div>
         <!--/.row -->
       </div>

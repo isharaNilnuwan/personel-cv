@@ -187,7 +187,7 @@ SECTION WRAPS
 /* Intnro Wrap */
 
 #intro {
-  background: #2c3e50;
+  background: #171c30c0;
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
@@ -205,7 +205,7 @@ SECTION WRAPS
 }
 
 #skillswrap {
-  background: #2c3e50;
+  background: #1c0036;
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
@@ -216,7 +216,7 @@ SECTION WRAPS
 }
 
 #footwrap {
-  background: #2f2f2f;
+  background: #000000;
   padding-top: 50px;
   padding-bottom: 50px;
 }
